@@ -1,0 +1,45 @@
+[
+	{
+		"competitor_catalog_id": "XTCE009B01",
+		"ab_catalog_id": "100-C09D01",
+		"reason": "better coil consumption",
+		"webpage_link": "https://ab.rockwellautomation.com/Motor-Control/Contactors/IEC/Standard"
+	},
+	{
+		"competitor_catalog_id": "LC1D09KUE",
+		"ab_catalog_id": "100-C09D01",
+		"reason": "a smaller frame size",
+		"webpage_link": "https://ab.rockwellautomation.com/Motor-Control/Contactors/IEC/Standard"
+	},
+	{
+		"competitor_catalog_id": "3RT2023-1NF30",
+		"ab_catalog_id": "100-C09D01",
+		"reason": "a smaller frame size",
+		"webpage_link": "https://ab.rockwellautomation.com/Motor-Control/Contactors/IEC/Standard"
+	},
+	{
+		"competitor_catalog_id": "MC9A-30-01-K7-S-E",
+		"ab_catalog_id": "100-C09D01",
+		"reason": "better coil consumption",
+		"webpage_link": "https://ab.rockwellautomation.com/Motor-Control/Contactors/IEC/Standard"
+	},
+	{
+		"competitor_catalog_id": "CWB9-11-30D15",
+		"ab_catalog_id": "100-C09D01",
+		"reason": "better coil consumption",
+		"webpage_link": "https://ab.rockwellautomation.com/Motor-Control/Contactors/IEC/Standard"
+	},
+	{
+		"competitor_catalog_id": "SUPPLY",
+		"ab_catalog_id": "100-C09D01-POC",
+		"reason": "better coil consumption",
+		"webpage_link": "https://ab.rockwellautomation.com/Motor-Control/Contactors/IEC/Standard"
+	},
+	{
+		"competitor_catalog_id": "AMERICAN-FLAG",
+		"ab_catalog_id": "100-C09D01-POC (FLAG)",
+		"reason": "better coil consumption (FLAG)",
+		"webpage_link": "https://ab.rockwellautomation.com/Motor-Control/Contactors/IEC/Standard"
+	}
+
+]
