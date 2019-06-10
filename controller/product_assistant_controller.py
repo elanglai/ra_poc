@@ -30,7 +30,7 @@ def process(eventJson):
 
     msgManager = MessageManager()
     if responseCode == 'NO_IMAGE_DETECTED':
-        return msgManager.retrieveMsgByResponseCode(responseCode, 'Hello')
+        return msgManager.retrieveMsgByResponseCode(responseCode, '')
 
     # Upload to S3
     image_object, s3_bucket, s3_key = uploadS3(imageUrl, fromNumber)

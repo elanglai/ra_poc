@@ -29,20 +29,21 @@ class MessageManager:
         return replyMsg
         
     def __init__(self):
-        self.prevMsg = ''
         self.msgOut = ''
     
     def retrieveMsgByResponseCode(self, responseCode, productMappingItem):
         logger.info(' ..MessageManager#retrieveMsgByResponseCode: responseCode={} productMappingItem={}'.format(responseCode, productMappingItem))
-    
-        if responseCode == 'PRODUCT_NOT_FOUND':
-            self.msgOut = self.PRODUCT_NOT_FOUND
-        elif responseCode == 'NO_IMAGE_DETECTED':
-            self.msgOut = self.NO_IMAGE_DETECTED
-        elif responseCode == 'PRODUCT_NOT_FOUND_DUE_TO_LOW_PROBABLITY':
-            self.msgOut = self.NOT_FOUND_DUE_TO_LOW_PROBABLITY
-        elif responseCode == 'PRODUCT_FOUND':
+
+        responseMap = {
+            'PRODUCT_NOT_FOUND': self.PRODUCT_NOT_FOUND,
+            'NO_IMAGE_DETECTED': self.NO_IMAGE_DETECTED,
+            'PRODUCT_NOT_FOUND_DUE_TO_LOW_PROBABLITY': self.NOT_FOUND_DUE_TO_LOW_PROBABLITY
+        }
+        
+        if responseCode == 'PRODUCT_FOUND' or responseCode == 'PRODUCT_FOUND_WIHOUT_PRODUCT_MAP':
             self.msgOut = self.PRODUCT_FOUND(productMappingItem)
+        else:
+            self.msgOut = responseMap[responseCode]
             
         logger.info(' ..return msg={}'.format(self.msgOut))
     

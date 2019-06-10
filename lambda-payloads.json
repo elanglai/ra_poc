@@ -1,0 +1,28 @@
+{
+    "HelloWorld": {
+        "lambda": {
+            "ToCountry": "US",
+            "MediaContentType0": "image/jpeg",
+            "ToState": "WI",
+            "SmsMessageSid": "MMc9f3017086b1ed79b578a35c37d31321",
+            "NumMedia": "1",
+            "ToCity": "",
+            "FromZip": "53227",
+            "SmsSid": "MMc9f3017086b1ed79b578a35c37d31321",
+            "FromState": "WI",
+            "SmsStatus": "received",
+            "FromCity": "MILWAUKEE",
+            "Body": "hello",
+            "FromCountry": "US",
+            "To": "+14142400361",
+            "MessagingServiceSid": "MG95437970fbbf8df2a3652d62c272afb8",
+            "ToZip": "",
+            "NumSegments": "1",
+            "MessageSid": "MMc9f3017086b1ed79b578a35c37d31321",
+            "AccountSid": "ACa3536f3b70b2c1d25a7aa23c4a20d733",
+            "From": "+14144038415",
+            "MediaUrl0": "https://api.twilio.com/2010-04-01/Accounts/ACa3536f3b70b2c1d25a7aa23c4a20d733/Messages/MM5ccaef8a71ded3eb92ba113d7d424629/Media/MEe2f1f5403514cb4c80fd84a265673923",
+            "ApiVersion": "2010-04-01"
+        }
+    }
+}

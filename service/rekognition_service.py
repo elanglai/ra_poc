@@ -4,7 +4,7 @@ import boto3
 logger = logging.getLogger()
 logger.setLevel(logging.DEBUG)
 
-MIN_WORD_SIZE_THRESHOLD = 1
+MIN_WORD_SIZE_THRESHOLD = 4
 MAX_WORD_SIZE_THRESHOLD = 20
 
 rek = boto3.client('rekognition')
