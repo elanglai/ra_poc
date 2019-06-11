@@ -1,10 +1,9 @@
-Welcome to the AWS Machine Learning POC setup for Uncle Rocky using Sagemaker & MXNET
-==============================================
+# AWS Sagemaker
+
 This sample code helps get you started with a Python scripts and configurations for
 Sagemaker and MXNET.
 
-What's Here
------------
+## What's Here
 
 This sample includes:
 
