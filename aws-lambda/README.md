@@ -1,30 +1,26 @@
+[Return to Overview](../README.md)
+
 # AWS Lambda
 
-## What's Here
-
-This sample includes:
-
-* README.md - this file
-* buildspec.yml - this file is used by AWS CodeBuild to package your
+## Code structure overview
+- README.md - this file
+- buildspec.yml - this file is used by AWS CodeBuild to package your
   application for deployment to AWS Lambda
-* index.py - this file contains the sample Python code for the web service
-* template.yml - this file contains the AWS Serverless Application Model (AWS SAM) used
+- index.py - this file contains the sample Python code for the web service
+- template.yml - this file contains the AWS Serverless Application Model (AWS SAM) used
   by AWS CloudFormation to deploy your application to AWS Lambda and Amazon API
   Gateway.
-* tests/ - this directory contains unit tests for your application
-* template-configuration.json - this file contains the project ARN with placeholders used for tagging resources with the project ID
+- tests/ - this directory contains unit tests for your application
+- template-configuration.json - this file contains the project ARN with placeholders used for tagging resources with the project ID
 
-## What Do I Do Next?
+## Step to update the referenced SageMaker image model endpoint
+To run the lambda against a new image model, the Python script `.\services\sagemaker_service.py` needs to be updated. See the inline comments.
 
-
-To run your tests locally, go to the root directory of the
-sample code and run the `python -m unittest discover tests` command, which
-AWS CodeBuild also runs through your `buildspec.yml` file.
-
-To test your new code during the release process, modify the existing tests or
-add tests to the tests directory. AWS CodeBuild will run the tests during the
-build stage of your project pipeline. You can find the test results
-in the AWS CodeBuild console.
+**_code extract_**
+``` python
+SAGEMAKER_ENDPOINT_NAME = 'DEMO-imageclassification-ep--2019-06-10-02-00-45'
+object_categories = ['3RT2023-1NF30', 'CWB9-11-30D15', 'MC9A-30-01-K7-S-E', 'XTCE009B01', 'LC1D09KUE']
+```
 
 
 
