@@ -9,7 +9,7 @@ ______  ___      _   _            _         ______           _             _____
  ---------------------------------------------------------------------------------------------
 
 
-elcome to RA's Uncle Rocky POC!
+Welcome to RA's Uncle Rocky POC!
 
 This repository contains the sources used for creating the Uncle Rocky POC which utilizes 
 AWS's services for detecting a competitor's product image (via Rekognition & SageMaker's 
@@ -18,7 +18,10 @@ Image Classification Algorithm)
 *Conceptual Solution Diagram*
 - https://www.lucidchart.com/documents/view/3609100b-d667-434e-a874-1a765bafb07d/0
 
-*Team*
-- RA's Product Owner: Hannah M. Schermerhorn <HMScherm@ra.rockwell.com>
-- TEKsystems' Development Lead: Eric Langlais <elanglai@teksystems.com>
-- TEKsystems' ML Senior Developer: Arvind Kumar <arvkumar@teksystems.com>
+*Contacts*
+- [RA's Product Owner] Hannah M. Schermerhorn <HMScherm@ra.rockwell.com>
+- [TEKsystems Managing Directior of Cloud Enablement] Michael Driscoll <midriscoll@teksystems.com>
+- [TEKsystems' Development Lead] Eric Langlais <elanglai@teksystems.com>
+- [TEKsystems' ML Senior Developer] Arvind Kumar <arvkumar@teksystems.com>
+- [AWS Solution Architect] Rashpal Kler <kler@amazon.com>
+- [AWS Partner] J.B. Feeney  <jbfeeney@amazon.com>
